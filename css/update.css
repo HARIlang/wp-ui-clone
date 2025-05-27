@@ -15,6 +15,7 @@ body{
     width: 300px;
     height: 680px;
     background-color: white;
+    overflow-x: hidden;
     
     
     
