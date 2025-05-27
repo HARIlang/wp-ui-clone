@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nothing You Could Do', cursive;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize ;
+    
+
+}
+h4{
+    margin-left: 10px;
+    margin-top: 13px;
+
+    width: 100px;
+    height: 20px;
+}
+h6{
+    margin-top: 19px;
+    margin-left: 100px;
+    font-weight: 100;
+    color: gray;
+}
+
+body{
+    background-color: red;
+    width: 290px;
+    height: 600px;
+    overflow-x: hidden;
+   
+    
+    
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body::-webkit-scrollbar-thumb{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+body div{
+   
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    
+    
+}
+body div.notification{
+    position: absolute ;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 10px ;
+    background-color: #00A884;
+    color: white ;
+    border: none;
+    right: 3%  ;
+    top: 58%;
+    
+    
+}
+.notification span{
+    text-align: center;
+    margin:  auto;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 7PX;
+    margin-left: 10px;
+}
+p{
+    font-size: 12px;
+    position: absolute ;
+    left:24%;
+    top: 37px;
+    text-transform: none;
+    color: gray;
+}
+i{
+    text-transform: none;
+}
+.search{
+    /* background-color: red; */
+    height: auto;
+    position: relative;
+}
+.search input{
+  margin: 10px auto;
+  border-radius: 20px;
+   width: 90%;
+   height: 30px;
+   border: none;
+   border: 2px solid gray;
+   color: gray;
+}
+.search input::placeholder{
+    padding-left: 5px;
+}
+.search input:focus{outline: none;}
+.search input{
+     padding-left:30px ;
+    padding-right: 30px;
+}
+.red{
+    color: red;
+}
+.search i{
+    color: grey;
+    font-size: 16px;
+    /* background-color: red; */
+    position: absolute;
+    top: 34%;
+    left: 8%;
+}
